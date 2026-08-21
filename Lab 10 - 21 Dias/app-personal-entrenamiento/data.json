@@ -1,0 +1,262 @@
+{
+  "muscleGroups": [
+    {
+      "id": "chest",
+      "name": "Pecho",
+      "icon": "💪",
+      "days": ["lunes", "jueves"]
+    },
+    {
+      "id": "back",
+      "name": "Espalda",
+      "icon": "🏋️",
+      "days": ["martes", "viernes"]
+    },
+    {
+      "id": "legs",
+      "name": "Piernas",
+      "icon": "🦵",
+      "days": ["miércoles", "sábado"]
+    },
+    {
+      "id": "shoulders",
+      "name": "Hombros",
+      "icon": "💪",
+      "days": ["lunes", "jueves"]
+    },
+    {
+      "id": "arms",
+      "name": "Brazos",
+      "icon": "💪",
+      "days": ["martes", "viernes"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "bench-press",
+      "name": "Press de Banca",
+      "muscleGroup": "chest",
+      "targetSets": 4,
+      "targetReps": "8-10",
+      "targetWeight": 80,
+      "notes": "Mantener los codos a 45 grados"
+    },
+    {
+      "id": "incline-press",
+      "name": "Press Inclinado con Mancuernas",
+      "muscleGroup": "chest",
+      "targetSets": 3,
+      "targetReps": "10-12",
+      "targetWeight": 30,
+      "notes": "Inclinación a 30 grados"
+    },
+    {
+      "id": "chest-fly",
+      "name": "Aperturas con Mancuernas",
+      "muscleGroup": "chest",
+      "targetSets": 3,
+      "targetReps": "12-15",
+      "targetWeight": 20,
+      "notes": "Movimiento controlado"
+    },
+    {
+      "id": "deadlift",
+      "name": "Peso Muerto",
+      "muscleGroup": "back",
+      "targetSets": 4,
+      "targetReps": "6-8",
+      "targetWeight": 100,
+      "notes": "Espalda recta durante todo el movimiento"
+    },
+    {
+      "id": "pull-ups",
+      "name": "Dominadas",
+      "muscleGroup": "back",
+      "targetSets": 4,
+      "targetReps": "8-10",
+      "targetWeight": 0,
+      "notes": "Peso corporal o asistidas"
+    },
+    {
+      "id": "barbell-row",
+      "name": "Remo con Barra",
+      "muscleGroup": "back",
+      "targetSets": 3,
+      "targetReps": "10-12",
+      "targetWeight": 60,
+      "notes": "Mantener el core activo"
+    },
+    {
+      "id": "lat-pulldown",
+      "name": "Jalón al Pecho",
+      "muscleGroup": "back",
+      "targetSets": 3,
+      "targetReps": "12-15",
+      "targetWeight": 50,
+      "notes": "Agarre amplio"
+    },
+    {
+      "id": "squat",
+      "name": "Sentadilla",
+      "muscleGroup": "legs",
+      "targetSets": 4,
+      "targetReps": "8-10",
+      "targetWeight": 100,
+      "notes": "Bajar hasta paralelo"
+    },
+    {
+      "id": "leg-press",
+      "name": "Prensa de Piernas",
+      "muscleGroup": "legs",
+      "targetSets": 4,
+      "targetReps": "10-12",
+      "targetWeight": 150,
+      "notes": "Rango completo de movimiento"
+    },
+    {
+      "id": "lunges",
+      "name": "Zancadas",
+      "muscleGroup": "legs",
+      "targetSets": 3,
+      "targetReps": "12-15",
+      "targetWeight": 20,
+      "notes": "Por pierna"
+    },
+    {
+      "id": "leg-curl",
+      "name": "Curl de Femoral",
+      "muscleGroup": "legs",
+      "targetSets": 3,
+      "targetReps": "12-15",
+      "targetWeight": 40,
+      "notes": "Contracción en la parte superior"
+    },
+    {
+      "id": "shoulder-press",
+      "name": "Press Militar",
+      "muscleGroup": "shoulders",
+      "targetSets": 4,
+      "targetReps": "8-10",
+      "targetWeight": 40,
+      "notes": "Mantener el core estable"
+    },
+    {
+      "id": "lateral-raise",
+      "name": "Elevaciones Laterales",
+      "muscleGroup": "shoulders",
+      "targetSets": 3,
+      "targetReps": "12-15",
+      "targetWeight": 10,
+      "notes": "Sin balanceo"
+    },
+    {
+      "id": "front-raise",
+      "name": "Elevaciones Frontales",
+      "muscleGroup": "shoulders",
+      "targetSets": 3,
+      "targetReps": "12-15",
+      "targetWeight": 10,
+      "notes": "Alternar brazos"
+    },
+    {
+      "id": "bicep-curl",
+      "name": "Curl de Bíceps con Barra",
+      "muscleGroup": "arms",
+      "targetSets": 4,
+      "targetReps": "10-12",
+      "targetWeight": 30,
+      "notes": "Sin usar impulso"
+    },
+    {
+      "id": "hammer-curl",
+      "name": "Curl Martillo",
+      "muscleGroup": "arms",
+      "targetSets": 3,
+      "targetReps": "12-15",
+      "targetWeight": 15,
+      "notes": "Agarre neutral"
+    },
+    {
+      "id": "tricep-pushdown",
+      "name": "Extensión de Tríceps en Polea",
+      "muscleGroup": "arms",
+      "targetSets": 4,
+      "targetReps": "12-15",
+      "targetWeight": 25,
+      "notes": "Codos pegados al cuerpo"
+    },
+    {
+      "id": "skull-crusher",
+      "name": "Fondos para Tríceps",
+      "muscleGroup": "arms",
+      "targetSets": 3,
+      "targetReps": "10-12",
+      "targetWeight": 20,
+      "notes": "Movimiento controlado"
+    }
+  ],
+  "cardio": [
+    {
+      "id": "running",
+      "name": "Correr",
+      "targetKm": 5,
+      "targetTime": 30,
+      "days": ["miércoles", "domingo"]
+    },
+    {
+      "id": "cycling",
+      "name": "Bicicleta",
+      "targetKm": 15,
+      "targetTime": 45,
+      "days": ["sábado"]
+    }
+  ],
+  "workoutHistory": [
+    {
+      "date": "2026-01-06",
+      "day": "lunes",
+      "exercises": [
+        {
+          "exerciseId": "bench-press",
+          "sets": [
+            { "weight": 80, "reps": 10, "notes": "" },
+            { "weight": 82.5, "reps": 8, "notes": "" },
+            { "weight": 82.5, "reps": 8, "notes": "" },
+            { "weight": 80, "reps": 9, "notes": "Última serie cansado" }
+          ]
+        },
+        {
+          "exerciseId": "incline-press",
+          "sets": [
+            { "weight": 30, "reps": 12, "notes": "" },
+            { "weight": 32.5, "reps": 10, "notes": "" },
+            { "weight": 32.5, "reps": 10, "notes": "" }
+          ]
+        }
+      ],
+      "cardio": [],
+      "totalVolume": 3210,
+      "duration": 60
+    },
+    {
+      "date": "2026-01-08",
+      "day": "miércoles",
+      "exercises": [
+        {
+          "exerciseId": "squat",
+          "sets": [
+            { "weight": 100, "reps": 10, "notes": "" },
+            { "weight": 105, "reps": 8, "notes": "" },
+            { "weight": 105, "reps": 8, "notes": "" },
+            { "weight": 100, "reps": 10, "notes": "" }
+          ]
+        }
+      ],
+      "cardio": [
+        { "cardioId": "running", "distance": 5.2, "time": 28, "notes": "Buen ritmo" }
+      ],
+      "totalVolume": 4100,
+      "duration": 75
+    }
+  ]
+}
